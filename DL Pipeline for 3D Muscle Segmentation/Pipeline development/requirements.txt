@@ -1,8 +1,0 @@
-tqdm
-numpy
-torch
-pandas
-torchio
-nibabel
-seg-metrics
-scipy
