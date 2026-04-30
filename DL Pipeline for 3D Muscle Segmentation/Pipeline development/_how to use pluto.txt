@@ -1,0 +1,16 @@
++ log into VPN
++ openn cmd
++ 'ssh tp-vincentw@pluto.acrc.a-star.edu.sg'
++ password: 'rCB6#1e%2_1&'
++ eval "$(/apps/anaconda3-distribution/2022.10/bin/conda shell.bash hook)"
++ 'conda create -f python38.yml'
++ 'conda activate python38'
++ 'pip list' (check if all the needed libraries are installed for the environment)
+
++ run the sbatch file where the process is initialized
+> 'sbatch scratch/PIPELINE/_modelA.sbatch'
+> 'sbatch scratch/PIPELINE/_modelB.sbatch'
+> 'sbatch scratch/PIPELINE/_modelC.sbatch'
+
++ 'qstat -u tp-vincentw' (check the user queue status)
++ 'scancel 659885' (cancel a queued job)

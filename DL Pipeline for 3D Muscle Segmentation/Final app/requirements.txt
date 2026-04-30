@@ -1,0 +1,7 @@
+torch>=2.6.0,<2.10.0
+torchio>=1.0.0
+nibabel>=5.0.0
+numpy>=2.0.0
+pandas>=2.0.0
+scipy>=1.10.0
+xlsxwriter>=3.0.0
